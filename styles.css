@@ -1,0 +1,196 @@
+body {margin: 0;
+  background-image: url(https://garden.spoonflower.com/c/12205437/p/f/l/D1wAixtM3sPOEAXEtwDBWAzJXHVqvvNxfBWIDL7kqh7kKsmBVOqDsbQ/usagi%20blanket%20cosplay%20pattern.jpg); background-attachment: fixed; background-color: rgba(255,255,255,0.85);
+    background-blend-mode: lighten; 
+margin: auto; 
+font-family: radio canada; 
+display: flex;
+}
+
+.barside {position:fixed; 
+top:0px;
+left:0px; 
+height: 100%; 
+width: 220px; 
+background-color: white;font-family:kalnia;
+padding-left:10px;
+font-size:25px;
+padding-top:50px;
+text-align:right; 
+padding-right:15px; 
+border-width: 0; 
+border-right: 5px solid;
+border-image: linear-gradient(#fff, #E076F0, #fff) 0 100%; overflow:hidden;}
+
+
+.nav-menu {
+          background: transparent;
+         width:220px;
+          border-radius: 8px;
+          padding-bottom:20px;
+          margin-top:-20px;
+      }
+
+.nav-menu a {
+          display: block;
+          text-decoration: none;
+          border-radius: 25px;
+          transition: all 0.3s ease;
+padding-right:5px;
+      }
+
+.nav-menu a:hover {
+  background-color: #57E1C1;
+  color:white;
+}
+.nav-menu a:first-child {
+  color:#A348B0
+}
+.nav-menu a:hover:first-child {
+  background-color: #A348B0;
+color:white
+}
+.nav-menu a:hover:nth-child(2){
+  background-color: #FF6868;
+}
+.nav-menu a:hover:nth-child(3){
+  background-color: #FCA949;
+}
+.nav-menu a:hover:nth-child(4){
+  background-color: #68BBFF;
+}
+.nav-menu a:hover:nth-child(5){
+  background-color: #FF5252;
+}
+.nav-menu a:hover:nth-child(6){
+  background-color: #53C961;
+}
+.nav-menu a:hover:last-child {
+  background-color: #721796;
+}
+
+.main {position:absolute; 
+top:0; 
+left:300px;
+height:720px;
+background-color:transparent; 
+overflow: hidden; 
+width:1300px; 
+justify-content:center; 
+align-content:space-between;
+flex-direction: column; 
+border-radius: 0 0 20px 20px;
+filter: drop-shadow(0px 5px 5px #E076F0);
+margin-left:50px;}
+
+#page1 {overflow:auto; 
+width: 900px; 
+height:900px;  
+background-color:white; 
+justify-content:center;
+border-radius: 0 0 20px 20px;
+content:center;}
+
+#page2, #page3, #page4, #page5, #page6, #page7 {overflow:auto; width: 1500px; 
+height:720px;
+display: flex;
+justify-content:center;
+align-content: space-between;
+flex-direction: column;}
+
+.banner {height:250px;
+width:100%;
+margin-bottom:-25px;
+object-fit: cover;}
+
+.banner1 {height:300px;
+width:100%;
+margin-bottom:-25px;
+object-fit: cover;}
+
+.pg1text {text-align:center;margin: 0 20px;}
+
+p {padding:25px;
+margin-top:-20px;
+font-size:16px;}
+
+h1 {font-size:50px;
+font-family: kalnia;
+text-align:center;
+margin-top:-5px;
+margin-bottom:-20px;}
+
+hr {width:100%;
+height:10px;
+background-color: none;
+border:none;}
+
+.scoutcontainer{ position:absolute;
+height:720px;
+background-color: white;
+width:550px;
+border-radius: 0 0 20px 20px;
+filter: drop-shadow(0px 5px 5px #E076F0)}
+
+.scoutart{align-content:right;
+max-height:600px;}
+
+#page1 hr{width:100%;
+height:10px;
+background: linear-gradient(to right, #FCA949, #FF5252, #FF6868, #68BBFF, #53C961); ;
+border:none;
+padding-top:20px;}
+
+#page2 hr{width:100%;
+height:10px;
+background-color: #FF6868;
+border:none;
+padding-top:15px;}
+
+#page3 hr{width:100%;
+height:10px;
+background-color: #FCA949;
+border:none;
+padding-top:15px;}
+
+#page4 hr{width:100%;
+height:10px; 
+background-color: #68BBFF;
+border:none;
+padding-top:15px;}
+
+#page5 hr{width:100%;
+height:10px;
+background-color: #FF5252;
+border:none;
+padding-top:15px;}
+
+#page6 hr{width:100%; 
+height:10px;
+background-color: #53C961;
+border:none;
+padding-top:15px;}
+
+#page7 hr{width:100%;
+height:10px;
+background-color: #721796;
+border:none;
+padding-top:15px;}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: #FF6868;
+  text-decoration: none;
+}
+
